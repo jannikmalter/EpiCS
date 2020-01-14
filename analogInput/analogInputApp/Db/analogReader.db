@@ -1,0 +1,71 @@
+record(sub,"FEMTOPI03:ANALOG_READ")
+{
+    field(SNAM,"mySubProcess")
+	field(PHAS, 5)
+    field(SCAN,".1 second")
+}
+
+
+record(ai,"FEMTOPI03:HHG_POWER")
+{
+	field(DESC, "Voltage Reading of HHG Diode")
+	field(SCAN,".1 second")
+	field(PHAS, 10)
+	field(INP,"FEMTOPI03:ANALOG_READ.A")
+}
+
+record(ai,"FEMTOPI03:POWER2")
+{
+	field(DESC, "Voltage Reading of HHG Diode")
+	field(SCAN,".1 second")
+	field(PHAS, 10)
+	field(INP,"FEMTOPI03:ANALOG_READ.B")
+}
+
+record(ai,"FEMTOPI03:POWER3")
+{
+	field(DESC, "Voltage Reading of HHG Diode")
+	field(SCAN,".1 second")
+	field(PHAS, 10)
+	field(INP,"FEMTOPI03:ANALOG_READ.C")
+}
+
+record(ai,"FEMTOPI03:POWER4")
+{
+	field(DESC, "Voltage Reading of HHG Diode")
+	field(SCAN,".1 second")
+	field(PHAS, 10)
+	field(INP,"FEMTOPI03:ANALOG_READ.D")
+}
+
+record(ai,"FEMTOPI03:POWER5")
+{
+	field(DESC, "Voltage Reading of HHG Diode")
+	field(SCAN,".1 second")
+	field(PHAS, 10)
+	field(INP,"FEMTOPI03:ANALOG_READ.E")
+}
+
+record(ai,"FEMTOPI03:POWER6")
+{
+	field(DESC, "Voltage Reading of HHG Diode")
+	field(SCAN,".1 second")
+	field(PHAS, 10)
+	field(INP,"FEMTOPI03:ANALOG_READ.F")
+}
+
+record(ai,"FEMTOPI03:POWER7")
+{
+	field(DESC, "Voltage Reading of HHG Diode")
+	field(SCAN,".1 second")
+	field(PHAS, 10)
+	field(INP,"FEMTOPI03:ANALOG_READ.G")
+}
+
+record(ai,"FEMTOPI03:POWER8")
+{
+	field(DESC, "Voltage Reading of HHG Diode")
+	field(SCAN,".1 second")
+	field(PHAS, 10)
+	field(INP,"FEMTOPI03:ANALOG_READ.H")
+}
