@@ -2,5 +2,5 @@ record(sub,"FEMTOPI03:TEMP_SENSOR")
 {
     field(SNAM,"mySubProcess")
 	field(PHAS, 5)
-    field(SCAN,"5 second")
+    field(SCAN,".1 second")
 }
