@@ -248,7 +248,7 @@ static struct iocshVarDef vardefs[] = {
 int analogInput_registerRecordDeviceDriver(DBBASE *pbase)
 {
     static int executed = 0;
-    const char *bldTop = "/home/epics/EPICS/IOCs/analogInput";
+    const char *bldTop = "/home/epics/EPICS/EpiCS/analogInput";
     const char *envTop = getenv("TOP");
 
     if (envTop && strcmp(envTop, bldTop)) {
