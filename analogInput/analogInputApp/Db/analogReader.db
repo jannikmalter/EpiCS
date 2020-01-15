@@ -22,7 +22,7 @@ record(ai,"FEMTOPI03:POWER2")
 	field(INP,"FEMTOPI03:ANALOG_INPUT.B")
 }
 
-record(ai,"")
+record(ai,"FEMTOPI03:POWER3")
 {
 	field(DESC, "")
 	field(SCAN,".1 second")
