@@ -5,10 +5,9 @@ record(sub,"FEMTOPI03:ANALOG_INPUT")
     field(SCAN,".1 second")
 }
 
-
-record(ai,"FEMTOPI03:HHG_POWER")
+record(ai,"FEMTOPI03:POWER1")
 {
-	field(DESC, "Voltage Reading of HHG Diode")
+	field(DESC, "")
 	field(SCAN,".1 second")
 	field(PHAS, 10)
 	field(INP,"FEMTOPI03:ANALOG_INPUT.A")
