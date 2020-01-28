@@ -1,3 +1,0 @@
-epicsEnvSet("IOC","ioctempReader")
-epicsEnvSet("TOP","/home/epics/EPICS/EpiCS/DS18B20")
-epicsEnvSet("EPICS_BASE","/home/epics/EPICS/epics-base")
