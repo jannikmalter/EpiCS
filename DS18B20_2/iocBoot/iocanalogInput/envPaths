@@ -1,3 +1,0 @@
-epicsEnvSet("IOC","iocanalogInput")
-epicsEnvSet("TOP","/home/epics/EPICS/EpiCS/DS18B20_2")
-epicsEnvSet("EPICS_BASE","/home/epics/EPICS/epics-base")
