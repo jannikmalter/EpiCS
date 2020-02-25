@@ -1,0 +1,6 @@
+record(sub,"FEMTOPI03:TEMP1")
+{
+    field(SNAM,"mySubProcess")
+    field(SCAN,".1 second")
+}
+
