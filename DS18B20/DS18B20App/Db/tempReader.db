@@ -1,6 +1,14 @@
-record(sub,"FEMTOPI03:TEMP1")
+record(sub,"FEMTOPI03:TEMPERATURES")
 {
     field(SNAM,"mySubProcess")
-    field(SCAN,".1 second")
+    field(PHAS, 5)
+    field(SCAN,"1 second")
 }
 
+record(ai,"FEMTOPI03:TEMPERATURE1")
+{
+	field(DESC, "")
+	field(SCAN,"1 second")
+	field(PHAS, 10)
+	field(INP,"FEMTOPI03:TEMPERATURES.A")
+}
